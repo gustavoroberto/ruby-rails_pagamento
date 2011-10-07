@@ -7,6 +7,7 @@ group :development do
   gem 'heroku'
 end
 
+gem 'devise'
 gem 'pg', group: :production
 
 group :assets do
