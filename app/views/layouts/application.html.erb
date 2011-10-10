@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<% if current_usuario%>
+		<%= link_to 'Sair', destroy_usuario_session_path, method: :delete %>
+	<% end %>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
   <%= yield %>
