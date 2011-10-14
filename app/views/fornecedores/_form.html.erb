@@ -12,7 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :cnpj_cpf %><br />
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="field">
+    <%= f.label :'CNPJ/CPF' %><br />
     <%= f.text_field :cnpj_cpf %>
   </div>
   <div class="actions">
