@@ -8,6 +8,8 @@ group :development do
 end
 
 gem 'devise'
+gem 'brazilian-rails'
+
 gem 'pg', group: :production
 
 group :assets do
